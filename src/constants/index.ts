@@ -190,7 +190,7 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT],
+  [ChainId.MAINNET]: [USDC, USDT],
   [ChainId.RINKEBY]: [],
   [ChainId.AVALANCHE]: [zZERO, AVAX as Token, zUSDC, zUSDT, zDAI, zETH],
   [ChainId.SMART_CHAIN]: [bscZERO, BNB as Token, bscBUSD, bscDAI, bscUSDC, bscUSDT, bscETH],

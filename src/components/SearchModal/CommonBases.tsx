@@ -34,7 +34,7 @@ export default function CommonBases({
   selectedCurrency?: Currency | null
   onSelect: (currency: Currency) => void
 }) {
-  const zeroToken = new Token(1, '0xF0939011a9bb95c3B791f0cb546377Ed2693a574', 18, 'ZERO', 'Zero')
+  const zeroToken = new Token(1, '0xF0939011a9bb95c3B791f0cb546377Ed2693a574', 9, 'MISHKA', 'Mishka')
   const array: any = chainId ? SUGGESTED_BASES[chainId] : []
   if (chainId && chainId === 1 && !array.find((x: any) => x.address === '0xF0939011a9bb95c3B791f0cb546377Ed2693a574')) {
     array.unshift(zeroToken)
