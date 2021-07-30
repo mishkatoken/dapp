@@ -95,6 +95,14 @@ export const crosschainConfig: ChainbridgeConfig = {
           resourceId: '0x0000000000000000000000F0939011a9bb95c3B791f0cb546377Ed2693a57401'
         },
         {
+          address: '0x976091738973b520A514ea206AcDD008A09649De',
+          name: 'Mishka(ETH)',
+          symbol: 'MISHKA',
+          assetBase: 'MISHKA',
+          decimals: 9,
+          resourceId: '0x0000000000000000000000F0939011a9bb95c3B791f0cb546377Ed2693a57401'
+        },
+        {
           address: '0x743864B0562754F47f91CD400Ac8d4356a8fc720',
           name: 'eAVAX',
           symbol: 'eAVAX',
