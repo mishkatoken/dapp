@@ -157,7 +157,7 @@ export default function CurrencyLogo({
   }
 
   // cross chain
-  if (currency?.symbol === 'ETH' || currency?.symbol === 'wETH') {
+  if (currency?.symbol === 'ETH' || currency?.symbol === 'WETH') {
     return <StyledEthereumLogo src={EthereumLogo} size={size} style={style} />
   }
   if (currency?.symbol === 'USDT' || currency?.symbol === 'wUSDT') {
